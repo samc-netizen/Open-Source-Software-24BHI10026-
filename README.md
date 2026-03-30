@@ -1,72 +1,82 @@
-# Open-Source-Software-24BHI10026-
 # Open Source Software Audit Project
 
-## Student Details
+## Student Information
 
-Name: Sumit Kumar Chandwani
-
-Registration Number: 24BHI10026
-
----
-
-## Chosen Software
-
-Python
+**Name:** Sumit Kumar Chandwani
+**Registration Number:** 24BHI10026
 
 ---
 
-## Project Description
+## Selected Open Source Software
 
-This project is part of the Open Source Software course. It focuses on analyzing Python as an open-source software, including its origin, licensing, ecosystem, and practical usage in a Linux environment.
-
-Additionally, five shell scripts are implemented to demonstrate Linux command-line skills and automation concepts.
+**Python**
 
 ---
 
-## Shell Scripts Overview
+## Project Overview
+
+This project is developed as part of the Open Source Software course. The objective is to study and analyze Python as an open-source software system, focusing on its origin, licensing model, ecosystem, and role within a Linux environment.
+
+In addition to theoretical analysis, the project includes practical implementation using Bash scripting. Five shell scripts have been designed and executed to demonstrate system-level operations, automation, and interaction with Linux utilities.
+
+---
+
+## Objectives
+
+* To understand the philosophy and principles of open-source software
+* To analyze the licensing and ecosystem of Python
+* To gain hands-on experience with Linux command-line tools
+* To implement automation using shell scripting
+
+---
+
+## Shell Script Modules
 
 ### Script 1: System Identity Report
 
-Displays system information such as kernel version, logged-in user, home directory, system uptime, date, and Linux distribution.
+Generates a summary of system-level information including kernel version, active user, home directory, uptime, and operating system details.
 
 ### Script 2: FOSS Package Inspector
 
-Checks whether Python is installed on the system and displays its version and details.
+Verifies the installation status of Python and retrieves relevant package details from the system.
 
 ### Script 3: Disk and Permission Auditor
 
-Analyzes important directories and shows their size, permissions, owner, and group.
+Examines key system directories and reports their disk usage, ownership, and access permissions.
 
 ### Script 4: Log File Analyzer
 
-Reads a log file and counts occurrences of a keyword such as "error".
+Processes system log files to identify and count occurrences of specific keywords such as "error".
 
 ### Script 5: Open Source Manifesto Generator
 
-Takes user input and generates a personalized open-source philosophy statement saved to a file.
+Collects user input and generates a personalized statement reflecting open-source values, saved as a text file.
 
 ---
 
-## Requirements
+## System Requirements
 
-* Linux environment (Ubuntu / GitHub Codespaces recommended)
+* Linux-based environment (Ubuntu or GitHub Codespaces recommended)
 * Bash shell
-* Basic Linux commands (chmod, grep, awk, etc.)
+* Standard Linux utilities (grep, awk, chmod, du, etc.)
 
 ---
 
-## How to Run the Scripts
+## Execution Instructions
 
-Step 1: Clone the repository
+### Step 1: Clone the Repository
+
 git clone https://github.com/samc-netizen/Open-Source-Software-24BHI10026-
 
-Step 2: Navigate to folder
+### Step 2: Navigate to Project Directory
+
 cd Open-Source-Software-24BHI10026-
 
-Step 3: Give execution permission
+### Step 3: Grant Execution Permissions
+
 chmod +x *.sh
 
-Step 4: Run scripts
+### Step 4: Execute Scripts
 
 ./script1.sh
 ./script2.sh
@@ -76,6 +86,21 @@ Step 4: Run scripts
 
 ---
 
+## Implementation Environment
+
+The project is implemented and tested using GitHub Codespaces, providing a cloud-based Linux development environment. All scripts are designed to run via the command line without requiring any graphical interface.
+
+---
+
+## Key Highlights
+
+* Integration of theoretical and practical learning
+* Use of real Linux system commands
+* Structured and modular scripting approach
+* Alignment with open-source principles
+
+---
+
 ## Notes
 
-All scripts are tested in a Linux environment and include comments explaining their functionality.
+All scripts are tested and include inline comments for better readability and understanding. The repository is maintained in a structured format to ensure ease of evaluation and reproducibility.
