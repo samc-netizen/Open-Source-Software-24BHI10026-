@@ -3,7 +3,7 @@
 
 ## Student Details
 
-Name: Your Name
+Name: Sumit Kumar Chandwani
 Registration Number: 24BHI10026
 
 ---
