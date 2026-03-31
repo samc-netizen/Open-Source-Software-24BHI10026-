@@ -16,7 +16,7 @@
 
 ## Project Overview
 
-This project is developed as part of the Open Source Software course. The objective is to study and analyze Python as an open-source software system, focusing on its origin, licensing model, ecosystem, and role within a Linux environment.
+This project is developed as part of the Open Source Software course. The objective is to study and analyze Git as an open-source software system, focusing on its origin, licensing model, ecosystem, and role within a Linux environment.
 
 In addition to theoretical analysis, the project includes practical implementation using Bash scripting. Five shell scripts have been designed and executed to demonstrate system-level operations, automation, and interaction with Linux utilities.
 
@@ -25,7 +25,7 @@ In addition to theoretical analysis, the project includes practical implementati
 ## Objectives
 
 * To understand the philosophy and principles of open-source software
-* To analyze the licensing and ecosystem of Python
+* To analyze the licensing and ecosystem of Git
 * To gain hands-on experience with Linux command-line tools
 * To implement automation using shell scripting
 
@@ -39,7 +39,7 @@ Generates a summary of system-level information including kernel version, active
 
 ### Script 2: FOSS Package Inspector
 
-Verifies the installation status of Python and retrieves relevant package details from the system.
+Verifies the installation status of Git and retrieves its version and related details from the system.
 
 ### Script 3: Disk and Permission Auditor
 
@@ -89,7 +89,7 @@ chmod +x *.sh
 
 ## Implementation Environment
 
-The project is implemented and tested using GitHub Codespaces, providing a cloud-based Linux development environment. All scripts are designed to run via the command line without requiring any graphical interface.
+The project is implemented and tested using GitHub Codespaces, which provides a cloud-based Linux development environment. All scripts are designed to run via the command line without requiring any graphical interface.
 
 ---
 
