@@ -1,5 +1,44 @@
 #!/bin/bash
 # Script 2: FOSS Package Inspector
+# Author: Sumit Kumar Chandwani
+
+PACKAGE="git"
+
+echo "Checking if $PACKAGE is installed..."
+
+# Check if Git is installed
+if command -v git &> /dev/null
+then
+    echo "$PACKAGE is installed."
+    
+    # Show version
+    echo "Version details:"
+    git --version
+else
+    echo "$PACKAGE is NOT installed."
+fi
+
+# Case statement for description
+case $PACKAGE in
+    git)
+        echo "Git: Distributed version control system for tracking changes in source code."
+        ;;
+    apache2)
+        echo "Apache: Web server software."
+        ;;
+    mysql-server)
+        echo "MySQL: Database management system."
+        ;;
+    vlc)
+        echo "VLC: Open-source media player."
+        ;;
+    *)
+        echo "Unknown package"
+        ;;
+esac
+<<com
+#!/bin/bash
+# Script 2: FOSS Package Inspector
 
 PACKAGE="git"
 
@@ -18,4 +57,43 @@ case $PACKAGE in
     mysql-server) echo "MySQL: database for scalable applications" ;;
     vlc) echo "VLC: open-source media player that plays everything" ;;
     *) echo "Unknown package" ;;
+esac
+com 
+#!/bin/bash
+# Script 2: FOSS Package Inspector
+# Author: Sumit Kumar Chandwani
+
+PACKAGE="git"
+
+echo "Checking if $PACKAGE is installed..."
+
+# Check if Git is installed
+if command -v git &> /dev/null
+then
+    echo "$PACKAGE is installed."
+    
+    # Show version
+    echo "Version details:"
+    git --version
+else
+    echo "$PACKAGE is NOT installed."
+fi
+
+# Case statement for description
+case $PACKAGE in
+    git)
+        echo "Git: Distributed version control system for tracking changes in source code."
+        ;;
+    apache2)
+        echo "Apache: Web server software."
+        ;;
+    mysql-server)
+        echo "MySQL: Database management system."
+        ;;
+    vlc)
+        echo "VLC: Open-source media player."
+        ;;
+    *)
+        echo "Unknown package"
+        ;;
 esac
