@@ -16,18 +16,35 @@
 
 ## Project Overview
 
-This project is developed as part of the Open Source Software course. The objective is to study and analyze Git as an open-source software system, focusing on its origin, licensing model, ecosystem, and role within a Linux environment.
+This project is developed as part of the Open Source Software course. The primary objective is to study and analyze Git as an open-source software system, focusing on its origin, licensing model, ecosystem, and its role within a Linux environment.
 
-In addition to theoretical analysis, the project includes practical implementation using Bash scripting. Five shell scripts have been designed and executed to demonstrate system-level operations, automation, and interaction with Linux utilities.
+In addition to theoretical analysis, the project includes practical implementation using Bash scripting. Five shell scripts have been designed and executed to demonstrate system-level operations, automation, and interaction with core Linux utilities.
+
+This project combines conceptual understanding with hands-on execution, reflecting real-world usage of open-source tools.
 
 ---
 
 ## Objectives
 
 * To understand the philosophy and principles of open-source software
-* To analyze the licensing and ecosystem of Git
-* To gain hands-on experience with Linux command-line tools
+* To analyze the licensing model and ecosystem of Git
+* To gain practical experience with Linux command-line tools
 * To implement automation using shell scripting
+
+---
+
+## Repository Structure
+
+```
+.
+├── README.md
+├── script1.sh
+├── script2.sh
+├── script3.sh
+├── script4.sh
+├── script5.sh
+└── manifesto_codespace.txt
+```
 
 ---
 
@@ -35,73 +52,118 @@ In addition to theoretical analysis, the project includes practical implementati
 
 ### Script 1: System Identity Report
 
-Generates a summary of system-level information including kernel version, active user, home directory, uptime, and operating system details.
+Displays system-level information such as kernel version, current user, home directory, uptime, date, and OS details.
 
 ### Script 2: FOSS Package Inspector
 
-Verifies the installation status of Git and retrieves its version and related details from the system.
+Checks whether Git is installed on the system and displays its version along with a brief description.
 
 ### Script 3: Disk and Permission Auditor
 
-Examines key system directories and reports their disk usage, ownership, and access permissions.
+Analyzes key directories and reports their disk usage, ownership, and access permissions.
 
 ### Script 4: Log File Analyzer
 
-Processes system log files to identify and count occurrences of specific keywords such as "error".
+Processes log files to identify and count occurrences of specific keywords such as "error".
 
 ### Script 5: Open Source Manifesto Generator
 
-Collects user input and generates a personalized statement reflecting open-source values, saved as a text file.
+Generates a personalized open-source statement based on user input and saves it to a file.
 
 ---
 
 ## System Requirements
 
-* Linux-based environment (Ubuntu or GitHub Codespaces recommended)
+* Linux-based environment (Ubuntu recommended)
 * Bash shell
-* Standard Linux utilities (grep, awk, chmod, du, etc.)
+* Standard Linux utilities (`grep`, `awk`, `chmod`, `du`, etc.)
 
 ---
 
-## Execution Instructions
+## How to Run the Project (Using GitHub Codespaces)
 
-### Step 1: Clone the Repository
+### Step 1: Open Repository
 
-git clone https://github.com/samc-netizen/Open-Source-Software-24BHI10026-
+Go to the repository link:
+https://github.com/samc-netizen/Open-Source-Software-24BHI10026-
 
-### Step 2: Navigate to Project Directory
+---
 
+### Step 2: Create Codespace
+
+1. Click on the green **Code** button
+2. Select the **Codespaces** tab
+3. Click **Create codespace on main**
+
+This will launch a cloud-based Linux environment in your browser.
+
+---
+
+### Step 3: Open Terminal
+
+Once Codespaces loads:
+
+* Go to **Terminal → New Terminal**
+
+---
+
+### Step 4: Navigate to Project Directory
+
+```
 cd Open-Source-Software-24BHI10026-
+```
 
-### Step 3: Grant Execution Permissions
+---
 
+### Step 5: Grant Execution Permissions
+
+```
 chmod +x *.sh
+```
 
-### Step 4: Execute Scripts
+---
 
+### Step 6: Execute Scripts
+
+Run each script using:
+
+```
 ./script1.sh
 ./script2.sh
 ./script3.sh
 ./script4.sh /var/log/syslog error
 ./script5.sh
+```
 
 ---
 
 ## Implementation Environment
 
-The project is implemented and tested using GitHub Codespaces, which provides a cloud-based Linux development environment. All scripts are designed to run via the command line without requiring any graphical interface.
+The project is implemented and tested using GitHub Codespaces, which provides a cloud-based Linux development environment. All scripts are executed via the terminal without requiring any graphical interface.
 
 ---
 
 ## Key Highlights
 
-* Integration of theoretical and practical learning
+* Integration of theoretical and practical concepts
 * Use of real Linux system commands
-* Structured and modular scripting approach
-* Alignment with open-source principles
+* Modular and well-structured scripting approach
+* Demonstration of automation using shell scripting
+* Alignment with open-source principles and practices
 
 ---
 
 ## Notes
 
-All scripts are tested and include inline comments for better readability and understanding. The repository is maintained in a structured format to ensure ease of evaluation and reproducibility.
+* All scripts are tested in a Linux environment
+* Each script contains inline comments for clarity
+* The repository is structured for easy understanding and evaluation
+* No external dependencies are required beyond standard Linux utilities
+
+---
+
+## Conclusion
+
+This project demonstrates the practical application of open-source concepts through the study of Git and the implementation of shell scripts. It reflects the importance of version control, automation, and command-line proficiency in modern software development.
+
+---
