@@ -10,7 +10,7 @@
 
 ## Selected Open Source Software
 
-**Python**
+**Git**
 
 ---
 
